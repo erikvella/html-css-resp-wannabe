@@ -128,5 +128,11 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+/* resp versione tablet */
 
- 
+
+@media screen and (max-width:768px){
+ .container{
+    
+ }
+}
