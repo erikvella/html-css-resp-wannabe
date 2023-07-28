@@ -132,7 +132,32 @@ img {
 
 
 @media screen and (max-width:768px){
- .container{
-    
+ header , main {
+    width: 100%;
  }
+.container{
+  width: 768px;
+  margin: 0 auto;
+}
+
+}
+
+
+
+
+/* resp versione mobile */
+
+@media screen and (max-width:480px) {
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header , main {
+        width: 100%;
+    }
+    .container{
+        width: 480px;
+        margin: 0 auto;
+    }
 }
